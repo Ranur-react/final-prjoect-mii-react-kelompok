@@ -6,6 +6,7 @@ import NavLayout from './page/portofolio/NavLayout';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import PortoVery from './page/portofolio/PortoVery';
 import PortoSabrina from './page/portofolio/PortoSabrina';
+import PortoFares from './page/portofolio/PortoFares';
 function App() {
   return (
     <div>
@@ -17,6 +18,8 @@ function App() {
           <Route excat path='/' element={<PortoRanur />} />
           <Route path='/very' element={<PortoVery />} />
           <Route path='/sabrina' element={<PortoSabrina />} />
+          
+          <Route path='/fares' element={<PortoFares />} />
         </Routes>
       </Router>
     </div>
